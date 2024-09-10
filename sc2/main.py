@@ -1,8 +1,8 @@
 def feet_to_meters(value):
-    return value * 0.3048
+    return round(value * 0.3048, 2)
 
 def meters_to_feet(value):
-    return value / 0.3048
+    return round(value / 0.3048, 2)
 
 choice = input('f2m or m2f? ')
 value = float(input('? '))
